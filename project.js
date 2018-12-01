@@ -11,17 +11,19 @@ const all = function(){
         let randomQuestion;
         for (let i = 0; i < questionAmount; i++) {
           do {
-           randomQuestion = Math.floor(Math.random() * questions.length);
+           randomQuestion = Math.floor(Math.random() * display.length);
              } while (existingQuestions());
 
-            display.innerHTML += questions[randomQuestion] + '<br>';
+            // display.innerHTML = display[randomQuestion] + '<br>';
             questionTracker.push(randomQuestion);
             console.log(questionTracker);
+
+            
 
          }
 
 
-        function existingQuestions() {
+     function existingQuestions() {
           for (let i = 0; i < questionTracker.length; i++) {
             if (questionTracker[i] === randomQuestion) {
               return true;
@@ -36,6 +38,9 @@ const all = function(){
   // we'll need a place to store the HTML output
     const output = [];
   // for each question
+
+    
+
     questions.forEach(
       function(currentQuestion,questionNumber){
         const answers = [];
@@ -134,6 +139,8 @@ const submitButton = document.getElementById("submit");
 buildQuiz();
 
 Random();
+
+
 
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
