@@ -150,10 +150,4 @@ nextButton.addEventListener("click", showNextSlide);
 
 };
 
-
-
-
-//myQuestions[random(myQuestions.length)];
-//const colorArray = ["white" ,"violet", "thistle", "purple", "rebeccapurple", "plum", "orchid", "mediumpurple", "indigo", "darkviolet"];
-//color: colorArray [random(colorArray.length - 1)],
 all();
