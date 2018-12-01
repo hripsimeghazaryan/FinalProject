@@ -124,6 +124,8 @@ const all = function(){
     }
   }
 
+
+
   function showNextSlide(){
       showSlide(currentSlide + 1);
     }
@@ -149,6 +151,21 @@ let currentSlide = 0;
 
 
 showSlide(0);
+
+const left = 37;
+const right = 39;
+
+document.addEventListener("keydown", function(event){
+  if(event.keyCode === right){
+    showNextSlide();
+  }
+}, false);
+document.addEventListener("keydown", function(event){
+  if(event.keyCode === left){
+    showPreviousSlide();
+  }
+}, false);
+
 
 
 submitButton.addEventListener('click', showResults);
