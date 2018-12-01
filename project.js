@@ -154,6 +154,7 @@ showSlide(0);
 
 const left = 37;
 const right = 39;
+const enter = 13;
 
 document.addEventListener("keydown", function(event){
   if(event.keyCode === right){
@@ -165,6 +166,12 @@ document.addEventListener("keydown", function(event){
     showPreviousSlide();
   }
 }, false);
+document.addEventListener("keydown", function(event){
+  if(event.keyCode === enter){
+    showResults();
+  }
+}, false);
+
 
 
 
