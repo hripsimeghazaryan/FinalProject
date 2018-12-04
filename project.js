@@ -18,7 +18,7 @@ const all = function(){
             questionTracker.push(randomQuestion);
             console.log(questionTracker);
 
-            
+
 
          }
 
@@ -31,6 +31,7 @@ const all = function(){
             }
             return false;
         }
+        return questionTracker
     };
 
 
@@ -99,22 +100,22 @@ const all = function(){
     }
   });
 
-  resultsContainer.innerHTML = `${numCorrect} out of ${questions.length}`;
+  resultsContainer.innerHTML = `${numCorrect} out of ${10}`;
   }
 
   function showSlide(n){
-
-    slides[currentSlide].classList.remove("active-slide");
-    slides[n].classList.add("active-slide");
+    const currentQuestionNumber = questionTracker[currentSlide];
+    const nextQuestionNumber = questionTracker[n];
+    slides[currentQuestionNumber].classList.remove("active-slide");
+    slides[nextQuestionNumber].classList.add("active-slide");
     currentSlide = n;
-
     if (currentSlide === 0){
-      nextButton.style.display = "none";
+      previousButton.style.display = "none";
     }
     else{
       previousButton.style.display = "inline-block";
     }
-    if (currentSlide === slides.length - 1){
+    if (currentSlide === questionTracker.length - 1){
       nextButton.style.display = "none";
       submitButton.style.display = "inline-block";
     }
@@ -124,13 +125,11 @@ const all = function(){
     }
   }
 
-
-
   function showNextSlide(){
-      showSlide(currentSlide + 1);
+      showSlide(currentSlide+1);
     }
   function showPreviousSlide(){
-      showSlide(currentSlide - 1);
+      showSlide(currentSlide-1);
     }
 
 const quizContainer = document.getElementById("quiz");
@@ -140,7 +139,7 @@ const submitButton = document.getElementById("submit");
 
 buildQuiz();
 
-Random();
+const questionTracker = Random();
 
 
 
@@ -149,12 +148,11 @@ const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 
-
 showSlide(0);
 
 const left = 37;
 const right = 39;
-const enter = 13;
+const enter = 13
 
 document.addEventListener("keydown", function(event){
   if(event.keyCode === right){
@@ -166,14 +164,12 @@ document.addEventListener("keydown", function(event){
     showPreviousSlide();
   }
 }, false);
+
 document.addEventListener("keydown", function(event){
   if(event.keyCode === enter){
     showResults();
   }
 }, false);
-
-
-
 
 submitButton.addEventListener('click', showResults);
 previousButton.addEventListener("click", showPreviousSlide);

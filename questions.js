@@ -361,9 +361,3 @@ const myQuestions = [
   },
 
   ];
-
-
-
-
-
-  
