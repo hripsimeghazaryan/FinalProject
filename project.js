@@ -31,7 +31,7 @@ const all = function(){
             }
             return false;
         }
-        return questionTracker
+        return questionTracker;
     };
 
 
@@ -80,16 +80,16 @@ const all = function(){
 
     questions.forEach(function(currentQuestion,questionNumber){
 
-        const rightAnswers = answerContainers[questionNumber];
-        const selector = `input [name = question${questionNumber}]:checked`;
-        const userAnswer = (rightAnswers.querySelector(selector) || {}).value;
+        const currentQuestionAnswers = answerContainers[questionNumber];
+        const selector = `input[name = question${questionNumber}]:checked`;
+        const userAnswer = (currentQuestionAnswers.querySelector(selector) || {}).value;
   //The value property sets or returns the value of the value attribute of a text field.
 
     if  (userAnswer === currentQuestion.correctAnswer){
 
       numCorrect ++;
 
-      answerContainers[questionNumber].style.color = "green";
+      answerContainers[questionNumber].style.color = "lightgreen";
     
     }
     
@@ -125,11 +125,13 @@ const all = function(){
     }
   }
 
+
+
   function showNextSlide(){
-      showSlide(currentSlide+1);
+      showSlide(currentSlide + 1);
     }
   function showPreviousSlide(){
-      showSlide(currentSlide-1);
+      showSlide(currentSlide - 1);
     }
 
 const quizContainer = document.getElementById("quiz");
@@ -148,28 +150,24 @@ const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 
+
 showSlide(0);
 
 const left = 37;
 const right = 39;
-const enter = 13
+const enter = 13;
 
 document.addEventListener("keydown", function(event){
   if(event.keyCode === right){
     showNextSlide();
-  }
-}, false);
-document.addEventListener("keydown", function(event){
-  if(event.keyCode === left){
+  } else if(event.keyCode === left){
     showPreviousSlide();
-  }
-}, false);
-
-document.addEventListener("keydown", function(event){
-  if(event.keyCode === enter){
+  } else if(event.keyCode === enter){
     showResults();
   }
 }, false);
+
+
 
 submitButton.addEventListener('click', showResults);
 previousButton.addEventListener("click", showPreviousSlide);
