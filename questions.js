@@ -1,6 +1,6 @@
 const myQuestions = [
   {
-    question: "What year Pirates of the Caribbean: The Curse of the Black Pearl released?",
+    question: "What year \"Pirates of the Caribbean: The Curse of the Black Pearl\" released?",
     answers: {
       a: "2005",
       b: "2003",
@@ -80,7 +80,7 @@ const myQuestions = [
     correctAnswer: "c"
   },
    {
-    question: "Who does the voice over for Dory from Finding Nemo and Finding Dory?",
+    question: "Who does the voice over for Dory from \"Finding Nemo\" and \"Finding Dory\"?",
     answers: {
       a: "Ellen Degeneres",
       b: "Zaruhi Hakobyan",
@@ -90,7 +90,7 @@ const myQuestions = [
     correctAnswer: "a"
   },
    {
-    question: "What famous actor is known for the saing, I'll be back?",
+    question: "What famous actor is known for the saing \"I'll be back\"?",
     answers: {
       a: "Terminator",
       b: "Arnold Schwarzenegger",
@@ -100,7 +100,7 @@ const myQuestions = [
     correctAnswer: "b"
   },
    {
-    question: "What was the name of the monkey in the Disney movie Aladdin?",
+    question: "What was the name of the monkey in the Disney movie \"Aladdin\"?",
     answers: {
       a: "Kai",
       b: "Abu",
@@ -140,7 +140,7 @@ const myQuestions = [
     correctAnswer: "c"
   },
    {
-    question: "Which singer starred in The Bodyguard?",
+    question: "Which singer starred in \"The Bodyguard\"?",
     answers: {
       a: "Tina Turner",
       b: "Janet Jackson",
@@ -150,7 +150,7 @@ const myQuestions = [
     correctAnswer: "c"
   },
    {
-    question: "Who does the voice over for Woddy from Toy Story trilogy?",
+    question: "Who does the voice over for Woddy from \"Toy Story\" trilogy?",
     answers: {
       a: "Woddy Harrelson",
       b: "Tom Hanks",
@@ -160,7 +160,7 @@ const myQuestions = [
     correctAnswer: "b"
   },
    {
-    question: "Who is the author of the songs from The Lion King?",
+    question: "Who is the author of the songs from \"The Lion King\"?",
     answers: {
       a: "Stevie Wonder",
       b: "Paul McCartney",
@@ -170,7 +170,7 @@ const myQuestions = [
     correctAnswer: "c"
   },
    {
-    question: "Who said Why So Serious?",
+    question: "Who said \"Why So Serious?\"",
     answers: {
       a: "Joker from Batman(1989)",
       b: "Joker from The Dark Knight",
@@ -180,7 +180,7 @@ const myQuestions = [
     correctAnswer: "b"
   },
    {
-    question: "In The Lion King, what was Simaba's father's name?",
+    question: "In \"The Lion King\", what was Simaba's father's name?",
     answers: {
       a: "Shere Khan",
       b: "Mufasa",
@@ -240,7 +240,7 @@ const myQuestions = [
     correctAnswer: "b"
   },
    {
-    question: "Whose iconic phrase is I'm gonna make him an offer he can't refuse?",
+    question: "Whose iconic phrase is \"I'm gonna make him an offer he can't refuse\"?",
     answers: {
       a: "Vito Corleone",
       b: "Michael Corleone",
@@ -260,7 +260,7 @@ const myQuestions = [
     correctAnswer: "b"
   },
    {
-    question: "How many Oscars won Avatar?",
+    question: "How many Oscars won \"Avatar\"?",
     answers: {
       a: "9",
       b: "10",
@@ -280,7 +280,7 @@ const myQuestions = [
     correctAnswer: "a"
   },
    {
-    question: "Which actor had to play Tony Stark from Iron Man?",
+    question: "Which actor had to play Tony Stark from \"Iron Man\"?",
     answers: {
       a: "Nicolas Cage",
       b: "Brad Pitt",
@@ -300,7 +300,7 @@ const myQuestions = [
     correctAnswer: "d"
   },
    {
-    question: "How many mistakes NASA managers have found in Armageddon?",
+    question: "How many mistakes NASA managers have found in \"Armageddon\"?",
     answers: {
       a: "at least 168",
       b: "about 153",
@@ -310,7 +310,7 @@ const myQuestions = [
     correctAnswer: "a"
   },
    {
-    question: "Who said My mama always said Life is like a box of chocolate. You never know what you're gonna get?",
+    question: "Who said My mama always said \"Life is like a box of chocolate. You never know what you're gonna get\"?",
     answers: {
       a: "The Green Mile",
       b: "Forrest Gump",
@@ -320,7 +320,7 @@ const myQuestions = [
     correctAnswer: "b"
   },
    {
-    question: "The creators of Rick and Morty were influenced from which movie?",
+    question: "The creators of \"Rick and Morty\" were influenced from which movie?",
     answers: {
       a: "Doomsday",
       b: "Back to the Future",
@@ -340,7 +340,7 @@ const myQuestions = [
     correctAnswer: "a"
   },
    {
-    question: "What type of fish is Dory from the Finding Nemo?",
+    question: "What type of fish is Dory from the \"Finding Nemo\"?",
     answers: {
       a: "Damselfish",
       b: "Clownfish",
@@ -350,7 +350,7 @@ const myQuestions = [
     correctAnswer: "c"
   },
   {
-    question: "Who played James Bond in Live and Let Die?",
+    question: "Who played James Bond in \"Live and Let Die\"?",
     answers: {
       a: "Armen Hajyan",
       b: "Roger Monroe",
@@ -370,7 +370,7 @@ const myQuestions = [
     correctAnswer: ""
   },
    {
-    question: "How many Rocky films did Sylvester Stallone star in?",
+    question: "How many \"Rocky\" films did Sylvester Stallone star in?",
     answers: {
       a: "",
       b: "",
@@ -390,7 +390,7 @@ const myQuestions = [
     correctAnswer: ""
   },
   {
-    question: "Which movie following quote come from, To infinity and beyond?",
+    question: "From which movie following quote from, \"To infinity and beyond\"?",
     answers: {
       a: "",
       b: "",
@@ -410,7 +410,7 @@ const myQuestions = [
     correctAnswer: ""
   },
   {
-    question: "In the movie Prison Break why does Michael go to jail?",
+    question: "In the movie \"Prison Break\" why does Michael go to jail?",
     answers: {
       a: "Get to know his brother better",
       b: "Because he wanted to",
@@ -430,17 +430,17 @@ const myQuestions = [
     correctAnswer: ""
   },
   {
-    question: "",
+    question: "Who did not play in The \"The Expendables\"",
     answers: {
-      a: "",
-      b: "",
+      a: "Mel Gibson",
+      b: "Vahagn Mikaelyan",
       c: "",
       d: "I don't know"
   },
     correctAnswer: ""
   },
   {
-    question: "Which movie's soundtrack is Une Vie D'amour?",
+    question: "Which movie's soundtrack is \"Une Vie D'amour\"?",
     answers: {
       a: "",
       b: "",
