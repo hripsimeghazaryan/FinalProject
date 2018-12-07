@@ -1,11 +1,11 @@
 const myQuestions = [
-  {
+    {
     question: "What year \"Pirates of the Caribbean: The Curse of the Black Pearl\" released?",
     answers: {
       a: "2005",
       b: "2003",
       c: "2009",
-      d: "I don't know"
+      d: "2007"
     },
     correctAnswer: "b"
   },
@@ -15,17 +15,17 @@ const myQuestions = [
       a: "Severus Snape",
       b: "Gilderoy Lockhart",
       c: "Rouben Meschian",
-      d: "I don't know"
+      d: "Rubeus Hagrid"
     },
     correctAnswer: "c"
   },
   {
-    question: "Who said, My Precious?",
+    question: "Who said, \"My Precious?\"",
     answers: {
       a: "Frodo",
       b: "Gollum",
       c: "Michael Bashan",
-      d: "I don't know"
+      d: "Biblo"
     },
     correctAnswer: "b"
   },
@@ -35,7 +35,7 @@ const myQuestions = [
       a: "Transformers",
       b: "Jaws",
       c: "Jurassic World",
-      d: "I don't know"
+      d: "Balto"
     },
     correctAnswer: "c"
   },
@@ -45,7 +45,7 @@ const myQuestions = [
       a: "Snow White",
       b: "Cinderella",
       c: "Sleeping Beauty",
-      d: "It's Obvious"
+      d: "C'mon It's Obvious"
     },
     correctAnswer: "a"
   },
@@ -55,7 +55,7 @@ const myQuestions = [
       a: "The Jungle Book",
       b: "Sleeping Beauty",
       c: "Mary Poppins",
-      d: "I don't know"
+      d: "The Aristocats"
     },
     correctAnswer: "a"
   },
@@ -65,7 +65,7 @@ const myQuestions = [
       a: "Paul Walker",
       b: "Robin Williams",
       c: "Heath Ledger",
-      d: "I don't know"
+      d: "Michael Jackson"
     },
     correctAnswer: "c"
   },
@@ -75,7 +75,7 @@ const myQuestions = [
       a: "Billionaire, genius, playboy, philathropist",
       b: "Genius, playboy, billionaire, philathropist",
       c: "Genius, billionaire, playboy, philathropist",
-      d: "I don't know"
+      d: "Playboy, billionaire, genius, philathropist"
     },
     correctAnswer: "c"
   },
@@ -84,18 +84,18 @@ const myQuestions = [
     answers: {
       a: "Ellen Degeneres",
       b: "Zaruhi Hakobyan",
-      c: "Meryl Steep",
-      d: "I don't know"
+      c: "Kate Blanchett",
+      d: "Kate Winslet"
     },
     correctAnswer: "a"
   },
    {
-    question: "What famous actor is known for the saing \"I'll be back\"?",
+    question: "What famous actor is known for the following phrase \"I'll be back\"?",
     answers: {
-      a: "Terminator",
+      a: "Jan Klod Van Dam",
       b: "Arnold Schwarzenegger",
       c: "Vazgen Barfyan",
-      d: "I don't know"
+      d: "Jason Statham"
     },
     correctAnswer: "b"
   },
@@ -105,7 +105,7 @@ const myQuestions = [
       a: "Kai",
       b: "Abu",
       c: "Zazu",
-      d: "I don't know"
+      d: "Abi"
     },
     correctAnswer: "b"
   },
@@ -115,7 +115,7 @@ const myQuestions = [
       a: "Phoenix",
       b: "Dragon",
       c: "Griffin",
-      d: "I don't know"
+      d: "Basilisk"
     },
     correctAnswer: "a"
   },
@@ -123,11 +123,11 @@ const myQuestions = [
     question: "Which horror movie character is a serial killer possessing the doll?",
     answers: {
       a: "Annabelle",
-      b: "Chucky",
+      b: "Billy",
       c: "Robert the Doll",
-      d: "I don't know"
+      d: "Chucky"
     },
-    correctAnswer: "b"
+    correctAnswer: "d"
   },
    {
     question: "Which character killed people in their dreams?",
@@ -135,7 +135,7 @@ const myQuestions = [
       a: "Chucky",
       b: "Jason Voorhees",
       c: "Freddy Krueger",
-      d: "I don't know"
+      d: "Pennywise"
     },
     correctAnswer: "c"
   },
@@ -145,7 +145,7 @@ const myQuestions = [
       a: "Tina Turner",
       b: "Janet Jackson",
       c: "Whitney Houston",
-      d: "I don't know"
+      d: "Lavliii"
     },
     correctAnswer: "c"
   },
@@ -153,11 +153,11 @@ const myQuestions = [
     question: "Who does the voice over for Woddy from \"Toy Story\" trilogy?",
     answers: {
       a: "Woddy Harrelson",
-      b: "Tom Hanks",
-      c: "Bruce Willis",
-      d: "I don't know"
+      b: "Jim Carrey",
+      c: "Robin Williams",
+      d: "Tom Hanks"
     },
-    correctAnswer: "b"
+    correctAnswer: "d"
   },
    {
     question: "Who is the author of the songs from \"The Lion King\"?",
@@ -165,7 +165,7 @@ const myQuestions = [
       a: "Stevie Wonder",
       b: "Paul McCartney",
       c: "Elton John",
-      d: "I don't know"
+      d: "Linoel Richie"
     },
     correctAnswer: "c"
   },
@@ -175,19 +175,19 @@ const myQuestions = [
       a: "Joker from Batman(1989)",
       b: "Joker from The Dark Knight",
       c: "Joker from Batman(1966)",
-      d: "I don't know"
+      d: "Too simple"
     },
     correctAnswer: "b"
   },
    {
-    question: "In \"The Lion King\", what was Simaba's father's name?",
+    question: "In \"The Lion King\", what was Simba's father's name?",
     answers: {
       a: "Shere Khan",
-      b: "Mufasa",
+      b: "Jafar",
       c: "Scar",
-      d: "I don't know"
+      d: "Mufasa"
     },
-    correctAnswer: "b"
+    correctAnswer: "d"
   },
    {
     question: "What is the name of the magical board game that can only be stopped by finishing the game?",
@@ -222,15 +222,15 @@ const myQuestions = [
  {
     question: "Which 1997 science fiction movie starring Will Smith and Tommy Lee Jones was released?",
     answers: {
-      a: "Alien: Resurrection",
-      b: "The Fifth Element",
+      a: "Alien: Resurrection",//
+      b: "The Fifth Element",//
       c: "Men in Black",
       d: "I don't know"
     },
     correctAnswer: "c"
   },
    {
-    question: "(The question that only Armenians can answer) What movie is shown in TV every New Year?",
+    question: "Which movie is shown in TV every New Year?",
     answers: {
       a: "Nightmare before Christmas",
       b: "Home Alone",
@@ -245,17 +245,17 @@ const myQuestions = [
       a: "Vito Corleone",
       b: "Michael Corleone",
       c: "Sonny Corleone",
-      d: "I don't know"
+      d: "Gitenq Don Corleone, but which one"
     },
     correctAnswer: "a"
   },
    {
     question: "In which year were the Academy Awards, or Oscar first presented?",
     answers: {
-      a: "1943",
+      a: "1956",
       b: "1929",
-      c: "1913",
-      d: "I don't know"
+      c: "1951",
+      d: "1953"
     },
     correctAnswer: "b"
   },
@@ -265,7 +265,7 @@ const myQuestions = [
       a: "9",
       b: "10",
       c: "11",
-      d: "I don't know"
+      d: "Many"
     },
     correctAnswer: "a"
   },
@@ -273,8 +273,8 @@ const myQuestions = [
     question: "Both Anthony Hopkins and Antonio Banderas portrayed which hero? ",
     answers: {
       a: "Zorro",
-      b: "",
-      c: "",
+      b: "Odin",
+      c: "Nestor Castillo",
       d: "I don't know"
     },
     correctAnswer: "a"
@@ -290,12 +290,12 @@ const myQuestions = [
     correctAnswer: "d"
   },
    {
-    question: "Who supposed to play CAPTAIN Jack Sparrow?",
+    question: "Who was supposed to play CAPTAIN Jack Sparrow?",
     answers: {
       a: "Jim Carrey",
       b: "Michael Keaton",
       c: "Christopher Walken",
-      d: "Actually, all of them"
+      d: "All of them"
     },
     correctAnswer: "d"
   },
@@ -304,18 +304,18 @@ const myQuestions = [
     answers: {
       a: "at least 168",
       b: "about 153",
-      c: "at least 67",
-      d: "I don't know"
+      c: "exactly 67",
+      d: "nearly 141"
     },
     correctAnswer: "a"
   },
    {
-    question: "Who said My mama always said \"Life is like a box of chocolate. You never know what you're gonna get\"?",
+    question: "In which movie main character said \" My mama always said: Life is like a box of chocolate. You never know what you're gonna get\"?",
     answers: {
       a: "The Green Mile",
       b: "Forrest Gump",
       c: "Philadelphia",
-      d: "I don't know"
+      d: "Saving Private Ryan"
     },
     correctAnswer: "b"
   },
@@ -325,7 +325,7 @@ const myQuestions = [
       a: "Doomsday",
       b: "Back to the Future",
       c: "Star Trek",
-      d: "I don't know"
+      d: "The Time Machine"
     },
     correctAnswer: "b"
   },
@@ -334,8 +334,8 @@ const myQuestions = [
     answers: {
       a: "Casper",
       b: "Toy Story",
-      c: "The Flintstones",
-      d: "I don't know"
+      c: "Shrek",
+      d: "A Bug's Life"
     },
     correctAnswer: "a"
   },
@@ -345,7 +345,7 @@ const myQuestions = [
       a: "Damselfish",
       b: "Clownfish",
       c: "Blue Tang Fish",
-      d: "I don't know"
+      d: "Bluefish"
   },
     correctAnswer: "c"
   },
@@ -355,59 +355,59 @@ const myQuestions = [
       a: "Armen Hajyan",
       b: "Roger Monroe",
       c: "Sean Connery",
-      d: "I don't know"
+      d: "Pierce Brosnan"
   },
     correctAnswer: "b"
   },
   {
     question: "What is the name of the actor who played Ron Weasley in the Harry Potter movie series?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-      d: "I don't know"
+      a: "Rupert Grint",
+      b: "Daniel Radcliffe",
+      c: "Tom Felton",
+      d: "Alan Rickman"
   },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
    {
     question: "How many \"Rocky\" films did Sylvester Stallone star in?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-      d: "I don't know"
+      a: "3",
+      b: "5",
+      c: "6",
+      d: "4"
   },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
    {
     question: "Which famous actress was born Nomra Jeane Mortenson?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-      d: "I don't know"
+      a: "Audrey Hepburn",
+      b: "Lady Gaga",
+      c: "Natalie Portman",
+      d: "Marilyn Monroe"
   },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
     question: "From which movie following quote from, \"To infinity and beyond\"?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-      d: "I don't know"
+      a: "The Avengers: Infinity war",
+      b: "Toy Story",
+      c: "The Man Who Knew Infinity",
+      d: "Armageddon"
   },
-    correctAnswer: ""
+    correctAnswer: "b"
   },
   {
     question: "Tom Hardy won an Oscar for Best Actor in which 2008 movie?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-      d: "I don't know"
+      a: "Bronson",
+      b: "Legend",
+      c: "The Dark Knight Rises",
+      d: "The Revenant"
   },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
     question: "In the movie \"Prison Break\" why does Michael go to jail?",
@@ -420,46 +420,36 @@ const myQuestions = [
     correctAnswer: "d"
   },
   {
-    question: "From which movie do the characters Sully and Mike come from?",
+    question: "From which movie do the characters Sulley and Mike come from?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-      d: "I don't know"
+      a: "Monsters Inc.",
+      b: "The Incredibles",
+      c: "Ratatouille",
+      d: "The Good Dinosaur"
   },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "Who did not play in The \"The Expendables\"",
+    question: "Who did not play in The \"The Expendables 3\"",
     answers: {
       a: "Mel Gibson",
-      b: "Vahagn Mikaelyan",
-      c: "",
-      d: "I don't know"
+      b: "Sylvester Stallone",
+      c: "Jackie Chan",
+      d: "Antonio Banderas"
   },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
     question: "Which movie's soundtrack is \"Une Vie D'amour\"?",
     answers: {
-      a: "",
-      b: "",
-      c: "",
-      d: "I don't know"
+      a: "Be My Husband",
+      b: "Spy",
+      c: "Four Hearts",
+      d: "Teheran 43"
   },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
-  {
-    question: "",
-    answers: {
-      a: "",
-      b: "",
-      c: "",
-      d: "I don't know"
-  },
-    correctAnswer: ""
-  },
-
+    
   ];
 
 
