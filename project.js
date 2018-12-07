@@ -14,7 +14,7 @@ const all = function(){
            randomQuestion = Math.floor(Math.random() * display.length);
              } while (existingQuestions());
 
-            // display.innerHTML = display[randomQuestion] + '<br>';
+            
             questionTracker.push(randomQuestion);
             console.log(questionTracker);
 
@@ -31,7 +31,7 @@ const all = function(){
             }
             return false;
         }
-        return questionTracker;
+        return questionTracker
     };
 
 
@@ -46,7 +46,7 @@ const all = function(){
       function(currentQuestion,questionNumber){
         const answers = [];
         // we'll want to store the list of answers choices
-        for(letter in currentQuestion.answers){ 
+        for(let letter in currentQuestion.answers){ 
   //for/in - loops through the properties of an object
   // at that time currentQuestion is object with the answers
   // ... add an HTML radio button
@@ -80,16 +80,16 @@ const all = function(){
 
     questions.forEach(function(currentQuestion,questionNumber){
 
-        const currentQuestionAnswers = answerContainers[questionNumber];
+        const rightAnswers = answerContainers[questionNumber];
         const selector = `input[name = question${questionNumber}]:checked`;
-        const userAnswer = (currentQuestionAnswers.querySelector(selector) || {}).value;
+        const userAnswer = (rightAnswers.querySelector(selector) || {}).value;
   //The value property sets or returns the value of the value attribute of a text field.
 
     if  (userAnswer === currentQuestion.correctAnswer){
 
       numCorrect ++;
 
-      answerContainers[questionNumber].style.color = "lightgreen";
+      answerContainers[questionNumber].style.color = "green";
     
     }
     
@@ -100,7 +100,7 @@ const all = function(){
     }
   });
 
-  resultsContainer.innerHTML = `${numCorrect} out of ${10}`;
+  resultsContainer.innerHTML = `${numCorrect} out of 10`;
   }
 
   function showSlide(n){
@@ -125,13 +125,11 @@ const all = function(){
     }
   }
 
-
-
   function showNextSlide(){
-      showSlide(currentSlide + 1);
+      showSlide(currentSlide+1);
     }
   function showPreviousSlide(){
-      showSlide(currentSlide - 1);
+      showSlide(currentSlide-1);
     }
 
 const quizContainer = document.getElementById("quiz");
@@ -150,24 +148,24 @@ const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 
-
 showSlide(0);
 
 const left = 37;
 const right = 39;
-const enter = 13;
+const enter = 13
 
 document.addEventListener("keydown", function(event){
   if(event.keyCode === right){
+    event.preventDefault();
     showNextSlide();
   } else if(event.keyCode === left){
+    event.preventDefault();
     showPreviousSlide();
   } else if(event.keyCode === enter){
+    event.preventDefault();
     showResults();
   }
 }, false);
-
-
 
 submitButton.addEventListener('click', showResults);
 previousButton.addEventListener("click", showPreviousSlide);
